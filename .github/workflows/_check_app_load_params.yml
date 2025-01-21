@@ -28,9 +28,9 @@ jobs:
       - name: Clone ledger-app-database repository
         uses: actions/checkout@v4
         with:
-          repository: LedgerHQ/ledger-app-database
+          repository: xiemylogos/ledger-app-database
           path: ./ledger-app-database
-          ref: main
+          ref: ont_curve
 
       - name: Download manifest
         uses: actions/download-artifact@v4
